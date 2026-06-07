@@ -1,21 +1,11 @@
-# bbdnc website v4
+# bbdnc website v5
 
-Deze versie heeft twee pagina's:
+Static site for Cloudflare Pages / Workers.
 
-- `index.html` = officiële bbdnc-frontpage
-- `novicio.html` = aparte album page voor het debutalbum Novicio
+## Replace later
+- Spotify album embed on `novicio.html` once the album URL is live.
+- Individual YouTube embeds once video URLs are known.
+- Shop links once merch is live.
 
-Vervang in de HTML de placeholders:
-
-- `SPOTIFY_ARTIST_LINK`
-- `SPOTIFY_ARTIST_ID`
-- `SPOTIFY_ALBUM_LINK`
-- `SPOTIFY_ALBUM_ID`
-- `APPLE_MUSIC_LINK`
-- `YOUTUBE_CHANNEL_LINK`
-- `YOUTUBE_VIDEO_ID_1` enzovoort
-- `WEBSHOP_BOOKLET_LINK`
-- `WEBSHOP_TSHIRT_LINK`
-- `WEBSHOP_MAIN_LINK`
-
-Upload de hele map naar Cloudflare Pages.
+## Deploy
+Upload all files/folders in this directory to GitHub or Cloudflare.
